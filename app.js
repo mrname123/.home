@@ -21,7 +21,7 @@ var beginTimerElem = $('.modal-cont-begin h1')
 
 // Audio SRC
 var bgmusic = document.createElement('audio');
-bgmusic.setAttribute('src', 'sounds/bgmusic.mp3');
+bgmusic.setAttribute('src', 'bgmusic.mp3');
 bgmusic.setAttribute('autoplay', 'autoplay');
 $.get();
 bgmusic.addEventListener("load", function() {
